@@ -1,0 +1,305 @@
+html{
+    height: 100%;
+}
+body{ 
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    min-height: 100%;
+    background-color: #f5f5f5;
+}
+.video-1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.nav-list{
+    display: flex;
+    margin-left: 15%;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6%;
+}
+.nav-img-1{
+    position: absolute;
+    width: 120px;
+    height: 110px;
+    left: 30px;
+    z-index: -1;
+
+}
+.nav-li{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60%;
+    display: flex;
+}
+.nav-li-1{
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.ancor-1{
+    text-decoration: none;
+    color: white;
+}
+.nav-li-1 .ancor-1:hover{
+    cursor: pointer;
+    color: black;
+}
+.container-1{
+    width: 40%;
+    height: 40vh;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.container-1{
+    text-align: center;
+}
+.container-1-head{
+    color: white;
+}
+.btn-1{
+    position: absolute;
+    width: 12%;
+    height: 5vh;
+    font-size: 22px;
+    color: white;
+    margin-top: 20%;
+    margin-left: 10%;
+    right: 40%;
+    background-color: transparent;
+    border-radius: 35px;
+    border-color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn-1:hover{
+    background-color: azure;
+    color: aqua;
+}
+/*This part of the CSS Propertiy is styleing for the products */
+.product{
+    margin-top: 20%;
+}
+.item-1{
+    position: absolute;
+    min-width: 350px;
+    min-height: 350px;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+}
+.pitem-1{
+    font-size: 30px;
+    font-style: initial;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 10px; 
+    color: white;
+}
+.pimg-2{
+    margin-left: 35%;
+}
+.pitem-2{
+    font-size: 30px;
+    font-style: initial;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+}
+.pimg-3{
+    margin-left: 70%;
+}
+.pitem-3{
+    font-size: 30px;
+    font-style: initial;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 10px;
+    color: black;
+}
+/* This CSS properity is styling for the product 2 */
+.product-2{
+    margin-top: 30%;
+}
+.item-2{
+    position: absolute;
+    min-width: 350px;
+    min-height: 350px;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-radius: 10px;
+}
+.pitem-2-1{
+    font-size: 30px;
+    font-style: initial;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 10px;
+    color: white;
+}
+.p2-img-2{
+    margin-left: 35%;
+}
+.item-2{
+    position: absolute;
+    min-width: 350px;
+    min-height: 350px;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    width: 250px;
+    height: 250px;
+    display: flex;
+}
+.pitem-2-2{
+    font-size: 30px;
+    font-style: initial;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    color:  azure;
+}
+.p2-img-3{
+    margin-left: 70%;
+}
+.item-2{
+    position: absolute;
+    min-width: 350px;
+    min-height: 350px;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    width: 250px;
+    height: 250px;
+    display: flex;
+}
+.pitem-2-3{
+    font-size: 30px;
+    font-style: initial;
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 10px;
+    color: red;
+}
+/*This CSS Properity styling for the video-2 */
+.video-2{
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.mp4-1{
+    position: absolute;
+    min-width: 550px;
+    min-height: 450px;
+    z-index: -1;
+    width: 550px;
+    height: 450px;
+    background-color: blue;
+}
+.box1{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 50%;
+    margin-right: 10%;
+    background-color: white;
+    width: 550px;
+    height: 450px;
+}
+.head2{
+    margin-left: 3.5%;
+    font-size: 30px;
+}
+.head3{
+    margin-left: 3.5%;
+    font-size: 40px;
+}
+.ptag-1{
+    margin-left: 3.5%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* this line of css styling for the footer */
+.footer{
+    background-color: black;
+    margin-top: 20%;
+}
+.foot-list{
+    display: flex;
+}
+.foot-li{
+    display: flex;
+    padding-left: 50px;
+    margin-top: 50px;
+    color: white;
+}
+.ancor-2{
+    text-decoration: none;
+    color: white;
+}
+.ancor-2:hover{
+    cursor: pointer;
+    color: gray;
+}
+.copyright{
+    margin-top: 0%;
+    text-align: center;
+}
+.copy-1{
+    color: white;
+    font-style: italic;
+}
+.social{
+    justify-content: center;
+    align-items: center; 
+}
+.social-icon{
+    display: flex;
+    margin-left: 35%;
+}
+.soicon{
+    display: flex;
+    padding-left: 30px;
+}
+.fa-1{
+    width: 50px;
+    height: 40px;
+}
+.in-1{
+    width: 50px;
+    height: 40px;
+}
+.git-1{
+    width: 50px;
+    height: 40px;
+}
+.link-1{
+    width: 50px;
+    height: 40px;
+}
+.social-1{
+    display: flex;
+}
